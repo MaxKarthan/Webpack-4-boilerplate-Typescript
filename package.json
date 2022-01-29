@@ -4,6 +4,7 @@
   "description": "🚀 Webpack 5 with ES6+ and SASS,LESS/STYLUS support + dev-server and livereload",
   "main": "index.js",
   "scripts": {
+    "clean": "rm -rf node_modules && rm package-lock.json",
     "start": "npm run build:dev",
     "build:dev": "webpack-dev-server --env dev --mode none",
     "build:prod": "webpack --env prod --mode production"
@@ -18,7 +19,9 @@
     "babel-preset-env": "^1.7.0",
     "clean-webpack-plugin": "^4.0.0",
     "css-loader": "^6.5.1",
+    "html-loader": "^3.1.0",
     "html-webpack-plugin": "^5.5.0",
+    "copy-webpack-plugin": "^10.2.3",
     "mini-css-extract-plugin": "^2.5.3",
     "node-sass": "^7.0.1",
     "postcss-loader": "^6.2.1",
