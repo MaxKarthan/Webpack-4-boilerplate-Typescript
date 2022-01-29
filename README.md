@@ -1,7 +1,7 @@
-# Webpack 4 Boilerplate Typescript/Sass with build-in option to change preprocessor (less/stylus)
+# Webpack 5 Boilerplate Typescript/Sass with build-in option to change preprocessor (less/stylus)
 ![License MIT](https://img.shields.io/github/license/mwieth/Webpack-4-boilerplate-Typescript)
 
-This Webpack 4 Boilerplate comes with 2 builds:
+This Webpack 5 Boilerplate comes with 2 builds:
 
 --> <code>npm run build:dev</code><br>
   starts dev server on <code>localhost:8080</code> with livereload, sourcemap
